@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - Fontana's Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-top: 10px;
+        }
+
+        .btn {
+            background-color: #FF4500;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Copilot_20251105_111655.png" alt="Sabor da Lenha" height="60">
+        </div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="rodizio.html">Rodízio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h2>Faça seu Pedido</h2>
+        <p>Escolha entre nossas pizzas artesanais e monte seu pedido com facilidade!</p>
+    </section>
+
+    <section class="menu-grid">
+        <div class="card">
+            <img src="pizza-calabresa.jpg" alt="Pizza de Calabresa">
+            <h3>Calabresa</h3>
+            <p>Molho de tomate, queijo mussarela, calabresa fatiada e cebola roxa.</p>
+            <a href="https://wa.me/5599999999999?text=Quero%20uma%20pizza%20de%20Calabresa" class="btn">Pedir via
+                WhatsApp</a>
+        </div>
+        <div class="card">
+            <img src="pizza-quatro-queijos.jpg" alt="Pizza Quatro Queijos">
+            <h3>Quatro Queijos</h3>
+            <p>Mussarela, provolone, gorgonzola e parmesão sobre molho especial.</p>
+            <a href="https://wa.me/5599999999999?text=Quero%20uma%20pizza%20Quatro%20Queijos" class="btn">Pedir via
+                WhatsApp</a>
+        </div>
+        <div class="card">
+            <img src="pizza-margherita.jpg" alt="Pizza Margherita">
+            <h3>Margherita</h3>
+            <p>Molho de tomate, mussarela de búfala, tomate fresco e manjericão.</p>
+            <a href="https://wa.me/5599999999999?text=Quero%20uma%20pizza%20Margherita" class="btn">Pedir via
+                WhatsApp</a>
+        </div>
+        <div class="card">
+            <img src="pizza-chocolate.jpg" alt="Pizza de Chocolate">
+            <h3>Chocolate com Morango</h3>
+            <p>Chocolate ao leite derretido com morangos frescos e borda doce.</p>
+            <a href="https://wa.me/5599999999999?text=Quero%20uma%20pizza%20de%20Chocolate%20com%20Morango"
+                class="btn">Pedir via WhatsApp</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fontana's Pizzaria - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>

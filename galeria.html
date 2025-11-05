@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Sabor da Lenha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Copilot_20251105_111655.png" alt="Sabor da Lenha" height="60">
+        </div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="pedidos.html">Pedidos</a>
+            <a href="rodizio.html">Rodízio</a>
+            <a href="eventos.html">Eventos</a>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h2>Galeria de Fotos</h2>
+        <p>Explore nosso ambiente acolhedor e nossas pizzas irresistíveis!</p>
+    </section>
+
+    <section class="gallery">
+        <img src="Copilot_20251105_111832.png" alt="Ambiente interno da pizzaria">
+        <img src="Copilot_20251105_112104.png" alt="Pizza saindo do forno à lenha">
+        <img src="Copilot_20251105_112319.png" alt="Clientes felizes saboreando pizza">
+        <img src="Copilot_20251105_112511.png" alt="Rodízio de pizzas doces e salgadas">
+        <img src="Copilot_20251105_112620.png" alt="Espaço decorado para evento">
+        <img src="galeria6.jpg" alt="Pizza de calabresa artesanal">
+        <img src="galeria7.jpg" alt="Equipe da pizzaria em ação">
+        <img src="galeria8.jpg" alt="Detalhes da decoração rústica">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sabor da Lenha - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
